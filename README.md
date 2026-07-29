@@ -1,26 +1,28 @@
-# PrivateVault website
+# PrivateVault Website
 
-Static website for PrivateVault and PrivateVault PRO at [privatepappa.in](https://privatepappa.in/).
+Complete static website package.
 
-## Public pages
+## Included files
 
-- `index.html` — product overview, technical security architecture, and edition comparison
-- `faq.html` — searchable technical and practical FAQs
-- `privacy-policy.html` — app and website privacy disclosures
-- `terms-of-service.html` — service terms and security boundaries
-- `contact-us.html` — support guidance and contact details
-
-Shared styling is in `css/style.css`, shared behavior is in `js/app.js`, and public brand assets are in `assets/` and the repository root.
-
-## Google Play
-
-- [PrivateVault](https://play.google.com/store/apps/details?id=com.privatepappain.privatevault)
-- [PrivateVault PRO](https://play.google.com/store/apps/details?id=com.privatepappain.privatevault.pro)
-
-## Content accuracy
-
-Technical claims and edition differences should be verified against the current Android source before publication. Avoid absolute security, guaranteed erasure, hardware-backing, StrongBox, attestation, or unsupported algorithm claims.
+- index.html
+- faq.html
+- privacy-policy.html
+- terms-of-service.html
+- contact-us.html
+- css/style.css
+- js/app.js
+- assets/app-icon.svg
 
 ## Contact
 
-[reply@privatepappa.in](mailto:reply@privatepappa.in)
+reply@privatepappa.in
+
+## Google Play Store Button
+
+The Play Store download button is marked as Coming soon.
+Replace the `href="#"` value in index.html with the final Play Store listing URL once published.
+
+## Privacy Policy
+
+The privacy page reflects the intended offline-first/no-data-collection behavior of PrivateVault.
+Before publishing, confirm the final APK permissions, SDKs, and Data Safety answers match the actual build.

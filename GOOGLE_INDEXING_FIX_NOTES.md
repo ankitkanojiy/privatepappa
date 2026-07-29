@@ -80,7 +80,7 @@ curl.exe -I https://privatepappa.in/sitemap.xml
 ## F. Favicon / Search Console logo fix
 
 ### Correct Favicon Source Used
-* Canonical brand logo asset: `assets/app-icon.png` (derived from the current Android launcher icon).
+* Vector brand logo asset: `assets/app-icon.svg` (containing high-resolution base64 PNG data).
 
 ### Favicon Files Generated/Updated
 The following files were generated/updated and placed at the domain root:
