@@ -80,7 +80,7 @@ curl.exe -I https://privatepappa.in/sitemap.xml
 ## F. Favicon / Search Console logo fix
 
 ### Correct Favicon Source Used
-* Vector brand logo asset: `assets/app-icon.svg` (containing high-resolution base64 PNG data).
+* Canonical brand logo asset: `assets/app-icon.png` (derived from the current Android launcher icon).
 
 ### Favicon Files Generated/Updated
 The following files were generated/updated and placed at the domain root:
@@ -129,4 +129,3 @@ curl.exe -I -L --max-redirs 10 https://www.privatepappa.in/
 
 > [!NOTE]
 > Google Search Console properties, browsers, and devices aggressively cache favicons and site manifest settings. Property icons in GSC may take some time (from several days to a few weeks) to refresh even after the live favicon files are deployed and return `200 OK` correctly.
-

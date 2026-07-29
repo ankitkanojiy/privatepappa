@@ -1,325 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-<title>FAQs - PrivateVault | Privatepappa</title>
-<meta name="description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self';" />
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="./css/style.css" />
-<script src="./js/app.js" defer></script>
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="PrivateVault PRO &amp; PrivateVault" />
-<meta property="og:url" content="https://privatepappa.in/faq.html" />
-<meta property="og:title" content="FAQs - PrivateVault | Privatepappa" />
-<meta property="og:description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
-<meta property="og:image" content="https://privatepappa.in/assets/logo.png" />
-<meta property="og:image:width" content="512" />
-<meta property="og:image:height" content="512" />
-<meta property="og:image:type" content="image/png" />
-<meta property="og:image:alt" content="PrivateVault app icon" />
-<!-- Canonical -->
-<link rel="canonical" href="https://privatepappa.in/faq.html" />
-<!-- Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "PrivateVault PRO & PrivateVault",
-  "url": "https://privatepappa.in",
-  "logo": "https://privatepappa.in/assets/logo.png",
-  "description": "PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement."
-}
-</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+  <title>Technical FAQs | PrivateVault for Android</title>
+  <meta name="description" content="Technical and practical answers about PrivateVault encryption, password derivation, biometric unlock, encrypted backups, restore compatibility, and Free versus PRO features." />
+  <link rel="canonical" href="https://privatepappa.in/faq.html" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./js/app.js" defer></script>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="PrivateVault by Privatepappa" />
+  <meta property="og:url" content="https://privatepappa.in/faq.html" />
+  <meta property="og:title" content="Technical FAQs | PrivateVault for Android" />
+  <meta property="og:description" content="Source-grounded answers about PrivateVault security, privacy, backups, biometrics, and edition differences." />
+  <meta property="og:image" content="https://privatepappa.in/assets/app-icon.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:image:alt" content="PrivateVault app icon" />
 </head>
 <body>
-<header class="site-header">
-  <nav class="navbar">
-    <div class="brand">
-      <a href="/" aria-label="Privatepappain home">
-        <img src="./assets/logo.png" alt="Privatepappain logo" width="34" height="34" />
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="./index.html" aria-label="PrivateVault home">
+        <img src="./assets/app-icon.png" alt="" width="42" height="42" />
+        <span class="brand-copy"><strong>PrivateVault</strong><small>by Privatepappa</small></span>
       </a>
-      <a class="brand-name" href="https://play.google.com/store/apps/dev?id=5408184378487018251" target="_blank" rel="noopener noreferrer" aria-label="Privatepappain on Google Play">Privatepappain</a>
-    </div>
-    <div class="nav-links" aria-label="Main navigation">
-      <a class="" href="/">Home</a>
-      <a class="active" href="./faq.html">FAQs</a>
-      <a class="" href="./privacy-policy.html">Privacy Policy</a>
-      <a class="" href="./terms-of-service.html">Terms of Service</a>
-      <a class="" href="./contact-us.html">Contact Us</a>
-    </div>
-  </nav>
-</header>
-<main class="page">
-  <section class="page-title">
-    <h1>Frequently Asked Questions</h1>
-    <p>
-      Answers about PrivateVault PRO &amp; PrivateVault's offline vault, encryption, permissions,
-      media tools, document viewing, privacy, and security design.
-    </p>
-    <div class="faq-tools">
-      <input class="search-input" data-faq-search type="search" placeholder="Search FAQs..." aria-label="Search FAQs" />
-    </div>
-  </section>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
+      <div class="nav-links" id="site-navigation">
+        <a href="./index.html">Home</a><a class="active" href="./faq.html" aria-current="page">FAQs</a><a href="./privacy-policy.html">Privacy</a><a href="./terms-of-service.html">Terms</a><a href="./contact-us.html">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <section class="faq-grid">
-    <article class="faq-card" data-faq-card>
-      <span class="label">PRO split</span>
-      <h3>What is the difference between PrivateVault and PrivateVault PRO?</h3>
-      <p>PrivateVault includes the essential offline encrypted vault features: importing and encrypting files, exporting files when needed, password and biometric unlock, in-app secure image viewer, search, sorting, selection, delete, Activity Logs, auto lock, password changes, vault reset, encrypted backup creation, sharing files directly from the vault, and opening files with another app of your choice. PrivateVault PRO adds advanced tools such as full file viewing (video, audio, PDF, documents, code, and more), Scan-to-PDF, folders, move, rename, starred files, restore, Vault Health, dark theme, Preserve Original, document autosave, Panic Lock, and advanced view modes.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Offline</span>
-      <h3>Is PrivateVault offline?</h3>
-      <p>Yes. PrivateVault is designed as an offline encrypted vault. Your files stay on your device unless you choose to export them or create a backup file yourself. This is available in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">No cloud</span>
-      <h3>Does PrivateVault upload my files to cloud storage?</h3>
-      <p>No. Vault files remain local unless you manually export or share them outside the app. This secure, local-only design applies to both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">No account</span>
-      <h3>Do I need an online account to use PrivateVault or PrivateVault PRO?</h3>
-      <p>No. The vault is designed for offline use and does not require a cloud account. This applies to both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Backup</span>
-      <h3>Is Backup available in PrivateVault?</h3>
-      <p>Yes. PrivateVault can create a password-protected encrypted backup of your vault data. Creating backups is available in both PRO and Free versions, though restoring backups is exclusive to PrivateVault PRO. Keep your backup password safe because it is required to restore the backup.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Upgrade</span>
-      <h3>How do I move from PrivateVault to PrivateVault PRO?</h3>
-      <p>In PrivateVault, create a password-protected encrypted backup. Then open PrivateVault PRO, choose Restore, select that backup file, and enter the same backup password. This lets you move your vault data to PrivateVault PRO without cloud transfer.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Restore</span>
-      <h3>Can PrivateVault PRO restore a backup created in PrivateVault?</h3>
-      <p>Yes. PrivateVault PRO is designed to restore normal encrypted backup files created by PrivateVault. Note that the restore feature is exclusive to the PrivateVault PRO version. Use the same backup password that was used when creating the backup.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Security</span>
-      <h3>What happens if I forget my backup password?</h3>
-      <p>The backup password is required to restore an encrypted backup. Keep it safe. Since the app is fully offline and does not use servers, there is no server-side recovery method to reset or retrieve your password. This applies to both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">PRO upgrade</span>
-      <h3>Does PrivateVault PRO replace PrivateVault?</h3>
-      <p>PrivateVault PRO is for users who want advanced vault tools. You can start with PrivateVault, create an encrypted backup, and restore it in PrivateVault PRO when you upgrade.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Local processing</span>
-      <h3>Are thumbnails, previews, and search processed locally?</h3>
-      <p>Yes. The app processes thumbnails, indexing, previews, and organisation locally without sending vault content to external servers. This local processing design is active in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Permissions</span>
-      <h3>Which permissions does the app use?</h3>
-      <p>PrivateVault uses only permissions required for selected features, such as reading user-selected images, videos, audio, documents, and optional camera capture when you use camera features. This is applicable to both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Camera</span>
-      <h3>When is camera permission requested?</h3>
-      <p>Camera permission is requested only when you use direct camera capture or document scanning features. Note that camera capturing and document scanning features are available in the PrivateVault PRO version.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">No internet</span>
-      <h3>Does the vault need INTERNET permission?</h3>
-      <p>No. The core offline vault does not require internet permission. This helps reduce data-leak risk. This secure offline policy is active in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">No internet</span>
-      <h3>Why do permissions combined with internet access pose a risk to my privacy?</h3>
-      <p>Permissions alone cannot guarantee privacy. While apps may request access to your files, camera, microphone, or location for legitimate reasons, the real risk arises when these permissions are combined with internet access. An app that can access your files and connect to the internet can potentially transfer data outside your device. To the system, this can look like normal activity such as syncing or backup, even if it is not what you intended. Because PrivateVault is fully offline and does not request internet access, this entire category of risk is removed.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Permissions</span>
-      <h3>How does Android's Privacy Dashboard compare to true encryption and offline storage?</h3>
-      <p>Android's privacy indicators and Privacy Dashboard are useful, but they primarily show when access to a resource (like files, camera, or location) occurs — not always why or how the data is used afterward. Once an app has a permission, it is difficult for the system to distinguish between expected behavior and unwanted data transfer. True offline encryption, like that used in PrivateVault, ensures that your files are secured mathematically on your device, and because the app has no internet connection, no data can be transferred outside your device in the first place.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Encryption</span>
-      <h3>How are files protected?</h3>
-      <p>Files are stored in encrypted form inside the vault. The app uses AES-256-GCM encryption with PBKDF2 key derivation, SHA-256 integrity hashing, protected vault sessions, and chunk-level authentication. All encryption and decryption happens locally on your device. This complete security is available in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Encryption</span>
-      <h3>What specific encryption algorithms and modes are used?</h3>
-      <p>PrivateVault and PrivateVault PRO use AES-256 (Advanced Encryption Standard with 256-bit keys), a symmetric encryption algorithm widely trusted by governments, financial institutions, and security professionals worldwide. It is applied using secure modes such as AES-GCM (Galois/Counter Mode), which provides both confidentiality and integrity. This ensures that if any encrypted file is modified or tampered with without authorization, the system detects it and rejects the data as invalid.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Encryption</span>
-      <h3>How are encryption keys derived and hardened?</h3>
-      <p>Encryption keys are derived from your password using secure, hardened key derivation functions such as PBKDF2 or Argon2. These methods convert your password or authentication input into a strong cryptographic key, resisting brute-force and dictionary attacks through techniques like salting and multiple hashing iterations. This ensures that even weak passwords are significantly hardened before being used for encryption. All keys are generated and stored securely on your device, and are never transmitted over a network.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Password</span>
-      <h3>Does the app support long vault passwords?</h3>
-      <p>Yes. The vault design supports strong passwords up to 127 characters. This is supported in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Screenshots</span>
-      <h3>Are screenshots blocked?</h3>
-      <p>Yes. Screenshot and screen-recording protection is enabled for sensitive vault screens in the release build. This is active in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Integrity</span>
-      <h3>How does PrivateVault reduce corruption risk?</h3>
-      <p>The app includes integrity validation, transactional writes, metadata recovery, chunk checks, restore validation, and corruption-resistant encrypted file handling. This is active in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Import</span>
-      <h3>Can I import many file types?</h3>
-      <p>Yes. PrivateVault supports importing common media, documents, code files, and other user-selected files into the encrypted vault. Note that invalid or corrupted files may not be encrypted, but most valid files can be imported. Importing files is available in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Export</span>
-      <h3>Can I export decrypted files?</h3>
-      <p>Yes. Files can be exported in decrypted form only when you explicitly choose to export them to a selected location. Exporting files is available in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Share</span>
-      <h3>Can I share files directly from the vault?</h3>
-      <p>Yes. PrivateVault lets you share files directly from the vault using the standard Android share sheet. The file is temporarily decrypted in memory for sharing and is never written to a persistent external location without your action. File sharing is available in both the free PrivateVault and PrivateVault PRO versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Open with app</span>
-      <h3>Can I open a vault file with another app?</h3>
-      <p>Yes. You can open files from the vault with any compatible app installed on your device using the standard Android "Open with" feature. The file is temporarily decrypted and handed off securely. This feature is available in both the free PrivateVault and PrivateVault PRO versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Documents</span>
-      <h3>Can I view Word, Excel, PowerPoint, and PDF files?</h3>
-      <p>Viewing is currently limited to PDF and text/code files, which can be viewed (and some can be edited). Viewing/editing of other types of office documents is not supported yet even in the PRO version, but may be implemented in a future update. These viewing features are available in the PrivateVault PRO version.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Password files</span>
-      <h3>Can I open password-protected PDFs?</h3>
-      <p>Yes. Opening supported password-protected PDFs inside the vault is available in the PrivateVault PRO version, with session isolation. Passwords are not stored.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Code files</span>
-      <h3>Can I view and edit code files?</h3>
-      <p>Yes. Code viewing and plain-text editing of common code formats (such as JavaScript, TypeScript, C, C++, Java, PHP, Python, Kotlin, Swift, HTML, CSS, JSON, XML, YAML, and more) is available in the PrivateVault PRO version.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Images</span>
-      <h3>Can I view images in the free version?</h3>
-      <p>Yes. The free version of PrivateVault includes an in-app secure image viewer. You can view, zoom, and pan images directly inside the encrypted vault without needing to export them. Images are decrypted only in memory for display and never written outside the vault. The secure image viewer is the only in-app file viewer available in the free version; all other file types (video, audio, PDF, documents, code, etc.) require PrivateVault PRO.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Video</span>
-      <h3>Can videos play in portrait and landscape?</h3>
-      <p>Yes. The video player supports dynamic rotation according to device rotation without forcing horizontal orientation. Video playback is available in PrivateVault PRO only.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Scanner</span>
-      <h3>Can I scan documents with the camera?</h3>
-      <p>Yes. Camera document scanning with basic crop is available in the PrivateVault PRO version.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">APK files</span>
-      <h3>Can APK files be run inside the app?</h3>
-      <p>No. APK files can be inspected in read-only mode, but they cannot be executed or installed. Note that APK file inspection is available in the PrivateVault PRO version.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Performance</span>
-      <h3>Is PrivateVault optimised for budget phones?</h3>
-      <p>Yes. The app is optimized well to handle most of its processes in most low-budget Android devices too, but some features may be limited according to available RAM and processor. This optimization is active in both PRO and Free versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Can encryption damage my files?</h3>
-      <p>No. Encryption itself does not randomly damage files. PrivateVault uses encryption as a mathematical process — when the original file, password, encryption key, and saved encrypted data are all correct, the file can be safely unlocked again. The real risk is an interrupted or incomplete file-writing process, not encryption itself.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>What can cause file corruption during encryption?</h3>
-      <p>Corruption can occur if the app is interrupted while writing a file. Common causes include: phone powering off or battery dying, storage running out, app being force-stopped or crashing, app data or vault files being deleted, cleaner apps or file managers modifying data, storage errors (SD card or internal), or a file being overwritten unsafely. In short, corruption happens when files are only partly written or altered outside the app.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Why does a small error break the whole file?</h3>
-      <p>PrivateVault uses authenticated encryption, which checks data integrity before opening a file. If even one byte is damaged, the app may refuse to open the file. This is a safety feature to prevent showing corrupted or unsafe data — it is designed to protect you, not a flaw.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Are encrypted files more likely to corrupt?</h3>
-      <p>No. Regular files may still open partially when damaged. Encrypted files cannot — if data is incomplete, they usually cannot be recovered. Encryption makes damage easier to detect, not more likely to occur.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Can PrivateVault recover a file if encryption was interrupted?</h3>
-      <p>In many cases, if the original file is still available, the safest solution is to import or encrypt it again. However, if the original was deleted and only a partially written encrypted file remains, recovery may not be possible. Authenticated encryption is designed to reject incomplete or modified data. This is why safe writing, verification, and avoiding early deletion of originals are very important.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>What should I do while encrypting large files?</h3>
-      <p>For best safety during large imports: keep your phone charged, do not force-close the app, avoid restarting the phone during encryption, make sure enough storage is available, avoid using aggressive cleaner or booster apps, do not manually edit or move PrivateVault's internal app files, and wait until the operation clearly finishes. No app can safely finish writing data if the device shuts down or storage becomes unavailable at the wrong moment.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Can low storage cause corruption?</h3>
-      <p>Yes. If storage runs out, files may not be fully written and cannot be decrypted. Always ensure enough free space before importing or encrypting files, especially large ones.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Can changing my password corrupt my files?</h3>
-      <p>Changing a password should not damage files if the operation completes correctly. The risk is similar to encryption: if the app must update encryption metadata or re-protect keys and the process is interrupted, access problems can occur. Password-related operations should be completed carefully, without force-closing the app or shutting down the device.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Can I open or edit PrivateVault files using another file manager?</h3>
-      <p>No. You should not manually open, rename, move, clean, edit, or delete PrivateVault's internal encrypted files. External file managers or cleaner apps may not understand the vault structure and may accidentally remove files or metadata needed for decryption. Use PrivateVault's built-in import, export, delete, backup, and restore options instead.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Why can't a file be opened even if it exists?</h3>
-      <p>The file may exist but be incomplete or altered. PrivateVault verifies data before opening. If verification fails, it blocks access to prevent showing corrupted or unsafe content. This strict behavior is part of secure authenticated encryption.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>Is PrivateVault Free less safe than PRO?</h3>
-      <p>No. Both versions use the same encryption. PRO adds extra features like better file viewing and file management tools — not stronger encryption. Your files are equally protected in both versions.</p>
-    </article>
-    <article class="faq-card" data-faq-card>
-      <span class="label">Data safety</span>
-      <h3>What is most important to understand about file safety?</h3>
-      <p>Encryption does not destroy files. The real risks are interruptions during writing, storage issues, or manual changes to vault files outside the app. PrivateVault detects damaged data and blocks unsafe access. This strict behavior is part of secure encryption and is designed to protect your data at all times.</p>
-    </article>
-  </section>
+  <main id="main-content" class="page inner-page">
+    <section class="page-title">
+      <p class="eyebrow">Technical and practical answers</p>
+      <h1>PrivateVault FAQs</h1>
+      <p>Clear explanations of what the Android apps do, how the current security formats work, where compatibility applies, and where the protection boundary ends.</p>
+    </section>
 
-  <section class="content-stack" style="padding-top: 18px;">
-    <article class="policy-card notice">
-      <h2>Feature Availability Note</h2>
-      <p>
-        Some advanced features depend on device capabilities, Android version,
-        supported file types, and production build configuration. Not every
-        feature will be available on every device or for every file format.
-      </p>
-    </article>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="footer-inner">
-    <span>© 2026 privatepappa.in</span>
-    <span>
-      <a href="./privacy-policy.html">Privacy Policy</a> ·
-      <a href="./terms-of-service.html">Terms of Service</a> ·
-      <a href="mailto:reply@privatepappa.in">reply@privatepappa.in</a>
-    </span>
-  </div>
-</footer>
+    <section class="faq-tools" aria-label="FAQ search">
+      <label for="faq-search">Search the FAQs</label>
+      <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="faq-search" class="search-input" type="search" placeholder="Try “backup”, “biometric”, or “PVL2”" autocomplete="off" data-faq-search /></div>
+      <p class="search-status" aria-live="polite" data-faq-count>26 questions</p>
+    </section>
+
+    <section class="faq-grid" data-faq-list>
+      <details class="faq-card" data-faq-card open><summary><span><span class="label" aria-hidden="true">Basics</span>What are PrivateVault and PrivateVault PRO?</span></summary><div class="faq-answer"><p>They are Android apps for importing selected files into an encrypted, app-private vault. Both editions share the same core cryptographic formats. PrivateVault is the focused free edition; PRO adds broader local viewers, organization tools, Settings restore, and additional authorization controls.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Privacy</span>Do the Android apps need Internet access?</span></summary><div class="faq-answer"><p>No. The current manifests request neither <code>INTERNET</code> nor <code>ACCESS_NETWORK_STATE</code>. Vault encryption, decryption, backup, restore, capture, and supported viewing happen locally. If you choose a Play Store or website link, Android opens that link outside the vault app.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Privacy</span>Do the apps collect analytics, advertisements, or vault contents?</span></summary><div class="faq-answer"><p>The Android apps do not include advertising, analytics, telemetry, remote crash-reporting, or cloud-sync SDKs. The developer does not receive vault files, passwords, keys, or local activity logs through an app server.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Editions</span>What is the practical difference between Free and PRO?</span></summary><div class="faq-answer"><p>Free includes encrypted import and export, password and optional biometric unlock, search and sorting, direct photo/video/audio capture, image viewing, encrypted activity logs, deletion, password changes, Vault Reset, backup creation, restore during initial vault setup, and a light theme. PRO adds folders, move, rename, and star controls; broader media/document/archive viewers; Scan-to-PDF; higher-quality capture; Settings restore; vault safety checks; Data Control; optional 2FA Unlock; Panic Lock; and dark or automatic themes.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Encryption</span>How are current-format vault files encrypted?</span></summary><div class="faq-answer"><p>Newly written and migrated files use the PVL2 format: chunked AES-256-GCM authenticated encryption with fresh nonces, structural authenticated data, ordered chunks, and strict length and trailing-data checks. This protects confidentiality and detects modification or truncation in the current format. Supported unmigrated PVLT1 files remain readable.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Credentials</span>How is a new vault key derived from a password?</span></summary><div class="faq-answer"><p>New vault credentials use PBKDF2-HMAC-SHA256 with exactly 600,000 iterations, a unique random 32-byte salt, and a 256-bit derived key. PrivateVault does not use Argon2id in the current implementation.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Credentials</span>What password rules apply?</span></summary><div class="faq-answer"><p>New vault passwords, changed vault passwords, and new backup passwords must be 8–127 UTF-16 code units and include at least one uppercase letter, lowercase letter, number, and symbol. Confirmation must match exactly. These creation rules are not applied retroactively to a cryptographically valid existing vault or backup password.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Credentials</span>Can the developer reset or recover my password?</span></summary><div class="faq-answer"><p>No. There is no cloud account, server-side password reset, recovery key held by the developer, or remote decryption service. Keep your password and verified backups safe; losing the required password can make encrypted data permanently inaccessible.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Credentials</span>Does the password verifier authorize vault access by itself?</span></summary><div class="faq-answer"><p>No. A versioned, domain-separated HMAC-SHA256 verifier provides a constant-time precheck. Successful authenticated decryption of authoritative vault metadata remains the final proof for password-derived access. Supported legacy verifier states remain compatible.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Metadata</span>How is the vault index protected?</span></summary><div class="faq-answer"><p>Current PVMD v2 metadata uses AES-256-GCM with a fresh 12-byte nonce, an authenticated structural header, explicit version and algorithm fields, bounded lengths, and strict truncation and trailing-data rejection. It protects logical entries, folders, relationships, revisions, and active encrypted-file references.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Compatibility</span>Can PrivateVault still open older vault data?</span></summary><div class="faq-answer"><p>Yes, supported legacy vault blobs, metadata, credential descriptors, and verifier states remain readable. Where an upgrade path exists, PrivateVault authenticates and verifies the replacement before changing authority. It does not claim to reconstruct data that was already lost or corrupted before migration.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Biometrics</span>How does Biometric Unlock work?</span></summary><div class="faq-answer"><p>Enrollment is password-first. PrivateVault then uses Android BiometricPrompt with a cryptographic object and an authentication-bound Android Keystore key to protect the active vault-key wrapper. Android performs biometric matching; PrivateVault does not receive or store fingerprint, face, or other biometric templates.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Biometrics</span>Is Biometric Unlock guaranteed to be hardware-backed?</span></summary><div class="faq-answer"><p>No such guarantee is made. Android Keystore and strong-biometric authentication are used, but the app does not attest the active key’s StrongBox, Trusted Execution Environment, or hardware security level on every device. Device security capabilities vary.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">PRO</span>Is Biometric Unlock the same as 2FA Unlock?</span></summary><div class="faq-answer"><p>No. Ordinary Biometric Unlock is a convenient alternative unlock path after password-first enrollment. PrivateVault PRO’s optional 2FA Unlock is a separate mode that requires both password-authorized vault proof and a strong biometric confirmation.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Backups</span>How are new encrypted backups protected?</span></summary><div class="faq-answer"><p>New backups use PVBAK4 and the fixed <code>BACKUP_PBKDF2_SHA256_V2</code> profile: PBKDF2-HMAC-SHA256, 600,000 iterations, a fresh random 32-byte salt, and a 256-bit derived key. The current header and per-entry structure are authenticated and strictly parsed.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Backups</span>Can I restore older backups?</span></summary><div class="faq-answer"><p>Yes. Valid supported PVBAK1, PVBAK2, and PVBAK3 backups retain their historical restore semantics, including compatibility with older passwords that do not meet today’s creation policy. Current malformed backup data is not silently retried as a legacy format.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Backups</span>Can the Free edition restore a backup?</span></summary><div class="faq-answer"><p>Free can restore a supported backup during initial vault setup. Restore from Settings in an existing vault is a PRO feature. Both editions can create encrypted backups.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Reliability</span>What happens if restore is cancelled or the app closes?</span></summary><div class="faq-answer"><p>Restore uses app-private staging, full authentication and integrity checks, foreground progress, and transactional activation. Safe cancellation cleans partial restore state before exit. Recovery validates staged encrypted blobs before they can enter authoritative metadata. Severe device, filesystem, or low-storage failures can still occur, so keep independent verified backups.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Capture</span>Can both editions capture media directly?</span></summary><div class="faq-answer"><p>Yes. Both editions can capture photos, videos, and audio into app-private staging before encrypted vault import. Free includes basic capture controls and built-in image viewing. PRO adds higher-quality capture controls and built-in video and audio playback. Scan-to-PDF is PRO-only.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Viewing</span>Which files can be viewed inside the app?</span></summary><div class="faq-answer"><p>Free provides built-in image viewing. PRO provides local viewers for supported images, video, audio, text/code, PDF, DOCX, XLSX, PPTX, and archive inspection. Support is viewer-only for Office formats and varies with document structure, size, available memory, and device capability; perfect Microsoft Office parity is not promised.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Exports</span>Do shared or externally opened files remain encrypted?</span></summary><div class="faq-answer"><p>No. When you choose Export, Share, or Open with, PrivateVault creates a temporary decrypted app-private copy, grants the selected destination access, and schedules local cleanup. The receiving app or selected storage location can retain its own copy, which is outside PrivateVault’s encryption boundary.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Display</span>Does PrivateVault prevent every screenshot?</span></summary><div class="faq-answer"><p>Release builds request Android’s <code>FLAG_SECURE</code> protection on vault screens. Platform behavior, compromised devices, external cameras, and some system-level capture paths remain outside the app’s control, so this is a risk-reduction measure rather than an absolute guarantee.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">PRO</span>What are Intrusion Detection and Activity Logs?</span></summary><div class="faq-answer"><p>PRO can optionally attempt available camera captures after a configured number of failed unlocks, subject to permission and device capability. Both editions maintain an encrypted local activity history that is available after authentication. Neither feature uploads its data through the Android apps. If a PRO user enables external Intrusion Detection copies, those decrypted copies are stored in the selected external folder and are outside vault encryption.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Deletion</span>Does deletion guarantee forensic erasure?</span></summary><div class="faq-answer"><p>No. Deleting an item removes the vault’s encrypted copy and metadata reference through the app’s normal workflow. Vault Reset removes PrivateVault’s local vault state. Flash storage, filesystem behavior, device backups, and previously exported copies prevent a universal promise of physical overwrite or forensic irrecoverability.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Integrity</span>What happens when encrypted data is damaged?</span></summary><div class="faq-answer"><p>Authenticated formats reject failed tags, inconsistent structure, truncation, and forbidden trailing data rather than treating altered content as valid. A rejected file may remain inaccessible. Authenticated encryption detects many integrity failures; it does not repair missing data.</p></div></details>
+
+      <details class="faq-card" data-faq-card><summary><span><span class="label" aria-hidden="true">Performance</span>Will every file work on every Android device?</span></summary><div class="faq-answer"><p>No universal guarantee is possible. Encryption and restore are streaming and bounded, but very large, malformed, unusual, or resource-intensive files may fail or perform differently depending on storage, memory, Android version, and device hardware. Maintain free space and verified backups before major operations.</p></div></details>
+    </section>
+
+    <div class="no-results" data-faq-empty hidden><h2>No matching answer</h2><p>Try a broader term, or contact support without sending private files or passwords.</p></div>
+
+    <section class="support-banner">
+      <div><p class="eyebrow">Still deciding?</p><h2>Compare the editions or ask a specific question.</h2></div>
+      <div class="cta-row cta-row-inline"><a class="btn btn-secondary btn-compact" href="./index.html#compare">Compare editions</a><a class="btn btn-primary btn-compact" href="./contact-us.html">Contact support</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page footer-grid">
+      <div class="footer-brand"><img src="./assets/app-icon.png" alt="" width="44" height="44" /><div><strong>PrivateVault</strong><p>Offline encrypted file vaults for Android.</p></div></div>
+      <nav class="footer-downloads" aria-label="Download the apps"><a href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault" target="_blank" rel="noopener noreferrer"><span>Download</span><strong>PrivateVault</strong></a><a href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault.pro" target="_blank" rel="noopener noreferrer"><span>Get</span><strong>PrivateVault PRO</strong></a></nav>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="./faq.html">FAQs</a><a href="./privacy-policy.html">Privacy</a><a href="./terms-of-service.html">Terms</a><a href="./contact-us.html">Contact</a></nav>
+    </div>
+    <div class="page footer-meta"><span>© 2026 Privatepappa</span><span>Android apps designed for precise, local protection.</span></div>
+  </footer>
 </body>
 </html>
