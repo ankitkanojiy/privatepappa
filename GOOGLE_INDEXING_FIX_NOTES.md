@@ -129,3 +129,4 @@ curl.exe -I -L --max-redirs 10 https://www.privatepappa.in/
 
 > [!NOTE]
 > Google Search Console properties, browsers, and devices aggressively cache favicons and site manifest settings. Property icons in GSC may take some time (from several days to a few weeks) to refresh even after the live favicon files are deployed and return `200 OK` correctly.
+

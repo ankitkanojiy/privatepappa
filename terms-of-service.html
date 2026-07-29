@@ -7,8 +7,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 <title>Terms of Service - PrivateVault | Privatepappa</title>
-<meta name="description" content="Terms for using PrivateVault and PrivateVault PRO, including local encrypted storage, edition capabilities, password and backup responsibilities, exports, and technical limitations." />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';" />
+<meta name="description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self';" />
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -21,12 +21,12 @@
 <meta property="og:site_name" content="PrivateVault PRO &amp; PrivateVault" />
 <meta property="og:url" content="https://privatepappa.in/terms-of-service.html" />
 <meta property="og:title" content="Terms of Service - PrivateVault | Privatepappa" />
-<meta property="og:description" content="Terms covering PrivateVault's offline encrypted storage, user-controlled exports, password and backup responsibilities, and device-dependent limitations." />
+<meta property="og:description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
 <meta property="og:image" content="https://privatepappa.in/assets/logo.png" />
 <meta property="og:image:width" content="512" />
 <meta property="og:image:height" content="512" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image:alt" content="Privatepappain logo" />
+<meta property="og:image:alt" content="PrivateVault app icon" />
 <!-- Canonical -->
 <link rel="canonical" href="https://privatepappa.in/terms-of-service.html" />
 <!-- Structured Data -->
@@ -37,7 +37,7 @@
   "name": "PrivateVault PRO & PrivateVault",
   "url": "https://privatepappa.in",
   "logo": "https://privatepappa.in/assets/logo.png",
-  "description": "Terms for using the offline PrivateVault Android apps, including encrypted storage, edition capabilities, user responsibilities, and technical limitations."
+  "description": "PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement."
 }
 </script>
 </head>
@@ -62,7 +62,7 @@
 <main class="page legal-page">
   <section class="page-title">
     <h1>Terms of Service</h1>
-    <p>Last updated: July 29, 2026</p>
+    <p>Last updated: July 6, 2026</p>
     <p>Use PrivateVault PRO &amp; PrivateVault only if you accept these terms of service.</p>
   </section>
 
@@ -97,12 +97,13 @@
     <article class="policy-card" id="description">
       <h2>PrivateVault PRO &amp; PrivateVault App Description</h2>
       <p>
-        PrivateVault and PrivateVault PRO are offline Android file vaults designed to encrypt selected files locally.
-        Their current manifests request neither Internet nor network-state permission, and the apps include no
-        advertising, analytics, telemetry, cloud-sync, or remote file-processing SDKs.
+        PrivateVault PRO &amp; PrivateVault are offline encrypted vault apps for Android designed to help users store
+        and manage personal files locally on their device. The apps focus on local privacy, file
+        organization, and secure viewing without cloud accounts, internet access, telemetry, or
+        online file viewers.
       </p>
       <p>
-        Current-format vault files and metadata use distinct AES-256-GCM authenticated formats. New vault credentials use PBKDF2-HMAC-SHA256 with 600,000 iterations, a unique random 32-byte salt, and a 256-bit derived key. The current implementation does not use Argon2id. Supported legacy vault and backup formats remain readable according to their historical semantics.
+        Both apps utilize industry-standard AES-256 encryption in GCM mode (Galois/Counter Mode) to ensure that imported files cannot be read or misused without proper local authentication. Encryption keys are generated and stored securely on your device using key derivation functions like PBKDF2 or Argon2. This local-only architecture means your files are never transmitted to external servers, protecting them against cloud leaks or unauthorized network access.
       </p>
       <p>
         Some advanced viewing, scanning, and document features depend on bundled native
@@ -113,23 +114,24 @@
     <article class="policy-card" id="features">
       <h2>Key Features</h2>
       <ul>
-        <li>Local encrypted file vault in both editions</li>
-        <li>Password and optional biometric unlock</li>
-        <li>Import, export, search, sorting, selection, deletion, and encrypted backups</li>
-        <li>Direct photo, video, and audio capture in both editions</li>
-        <li>Built-in image viewing in Free</li>
-        <li>PRO folders, starring, broader local viewers, Scan-to-PDF, Settings restore, and additional authorization controls</li>
-        <li>Encrypted local Activity Logs</li>
-        <li>Release-build screenshot protection requests on sensitive screens</li>
-        <li>No cloud account or app Internet permission required</li>
-        <li>No advertising, telemetry, or analytics SDKs in the Android apps</li>
+        <li>Offline encrypted file vault</li>
+        <li>Local-only file storage and management</li>
+        <li>Folder-based organization</li>
+        <li>Image, video, audio, PDF, and supported document viewing</li>
+        <li>File details and local search</li>
+        <li>Recent files and starred files</li>
+        <li>Backup and restore flow where available</li>
+        <li>Screenshot protection for sensitive screens</li>
+        <li>No cloud account required</li>
+        <li>No internet-based file viewer</li>
+        <li>No telemetry or analytics</li>
       </ul>
     </article>
 
     <article class="policy-card" id="limitations">
       <h2>Limitations</h2>
       <p>
-        PrivateVault and PrivateVault PRO cannot guarantee that every file type will preview or render perfectly.
+        PrivateVault PRO &amp; PrivateVault cannot guarantee that every file type will preview or render perfectly.
         Unsupported, corrupted, extremely large, unusual, encrypted, or password-protected files
         may fail to open, preview, or process.
       </p>
@@ -143,15 +145,15 @@
         malware, or advanced reverse engineering.
       </p>
       <p>
-        PrivateVault and PrivateVault PRO do not provide cloud recovery, server-side password reset, or developer
+        PrivateVault PRO &amp; PrivateVault do not provide cloud recovery, server-side password reset, or developer
         recovery access. If a vault password is forgotten or lost, encrypted files may be
         permanently inaccessible.
       </p>
       <p>
-        Authenticated encryption can detect altered or incomplete current-format data, but it cannot reconstruct missing bytes. Staged and transactional workflows reduce ambiguous partial state; device failure, exhausted storage, filesystem errors, or deliberate interruption can still prevent an operation from completing.
+        Encryption itself does not damage files. The real risk is an interrupted or incomplete write — caused by the phone powering off, storage running out, the app being force-closed, or cleaner apps modifying vault data. PrivateVault uses authenticated encryption, which means even one altered byte will cause the app to block access to that file as a safety feature.
       </p>
       <p>
-        Export, Share, Open with, and optional external Intrusion Detection copies produce decrypted data outside vault encryption. Deletion removes the app's encrypted copy and metadata reference but cannot guarantee physical secure erasure on flash storage.
+        For technical accuracy, Android's built-in Privacy Dashboard and permissions indicators track resource access but do not determine the intent behind data transfers. While Android continues to improve security, local offline encryption remains a critical layer of protection once permissions are granted.
       </p>
     </article>
 
@@ -163,13 +165,13 @@
         maintaining independent backups of important data.
       </p>
       <p>
-        By using PrivateVault and PrivateVault PRO, the user accepts responsibility for managing their files,
+        By using PrivateVault PRO &amp; PrivateVault, the user accepts full responsibility for managing their files,
         remembering their vault password, verifying backups, and understanding the risks of
         encrypted local storage.
       </p>
       <p>
         If a vault password is forgotten or lost, encrypted files may be permanently inaccessible.
-        PrivateVault and PrivateVault PRO do not provide cloud recovery, server-side password reset, or developer
+        PrivateVault PRO &amp; PrivateVault do not provide cloud recovery, server-side password reset, or developer
         recovery access.
       </p>
     </article>
@@ -191,7 +193,7 @@
     <article class="policy-card" id="security-guarantee">
       <h2>No Absolute Security Guarantee</h2>
       <p>
-        PrivateVault and PrivateVault PRO are designed with security-focused features, but no software, device, or
+        PrivateVault PRO &amp; PrivateVault are designed with security-focused features, but no software, device, or
         storage system can guarantee absolute protection in every situation. You should keep
         backups where appropriate, protect your device, and use strong authentication.
       </p>
@@ -224,7 +226,7 @@
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
-    <span>© 2026 www.privatepappa.in</span>
+    <span>© 2026 privatepappa.in</span>
     <span>
       <a href="./privacy-policy.html">Privacy Policy</a> ·
       <a href="./terms-of-service.html">Terms of Service</a> ·

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; frame-src https://docs.google.com; object-src 'none'; base-uri 'self'; form-action 'self';" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; frame-src https://docs.google.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self';" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <!-- P5 FIX: Reduced from 5 weights (400;500;600;700;800) to 3 — fewer font files fetched -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 <title>Privatepappa</title>
-<meta name="description" content="PrivateVault and PrivateVault PRO are offline Android file vaults with authenticated AES-256-GCM encryption, hardened password derivation, encrypted backups, and optional biometric unlock." />
+<meta name="description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -23,12 +23,12 @@
 <meta property="og:site_name" content="PrivateVault PRO &amp; PrivateVault" />
 <meta property="og:url" content="https://privatepappa.in/" />
 <meta property="og:title" content="PrivateVault PRO &amp; PrivateVault - Offline Encrypted Vault" />
-<meta property="og:description" content="Protect selected Android files locally with authenticated encryption, password-protected backups, and clear Free and PRO feature boundaries." />
+<meta property="og:description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
 <meta property="og:image" content="https://privatepappa.in/assets/logo.png" />
 <meta property="og:image:width" content="512" />
 <meta property="og:image:height" content="512" />
 <meta property="og:image:type" content="image/png" />
-<meta property="og:image:alt" content="Privatepappain logo" />
+<meta property="og:image:alt" content="PrivateVault app icon" />
 <!-- Canonical -->
 <link rel="canonical" href="https://privatepappa.in/" />
 <!-- Structured Data -->
@@ -39,7 +39,7 @@
   "name": "PrivateVault PRO & PrivateVault",
   "url": "https://privatepappa.in",
   "logo": "https://privatepappa.in/assets/logo.png",
-  "description": "PrivateVault and PrivateVault PRO are offline Android file vaults with authenticated encryption, hardened password derivation, encrypted backups, and optional biometric unlock."
+  "description": "PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement."
 }
 </script>
 <meta name="google-site-verification" content="xJtdVeTV1AvSoJhAOPh_YrKg8Kxdz2RV0wTcuHZiU80" />
@@ -83,9 +83,9 @@
       </div>
       <h1>PrivateVault PRO &amp; PrivateVault</h1>
       <p>
-        PrivateVault and PrivateVault PRO are offline Android file vaults that encrypt selected files locally. Both editions share the same core cryptographic formats, password protection, optional biometric unlock, encrypted backups, and local activity history. PrivateVault is the focused free edition; PRO adds broader local viewers, organization tools, Settings restore, and additional authorization controls.
+        PrivateVault PRO &amp; PrivateVault are offline encrypted vault apps for protecting personal files on your device. PrivateVault PRO is the paid upgrade with advanced file viewing, editing, and organisational capabilities. PrivateVault is the free encrypted vault with essential features including image viewing. Import files into your private vault, unlock with your password or biometrics, and keep full control of your data — no cloud accounts or online storage required.
       </p>
-
+      
     </div>
 
     <aside class="hero-card">
@@ -93,12 +93,14 @@
       <img class="app-icon-large" src="./assets/app-icon.png" alt="PrivateVault icon" width="128" height="128" />
       <h2>Private files stay private.</h2>
       <p>
-        Import selected files, encrypt them locally, preview supported content, and export only when you choose. Release builds request Android screenshot protection on sensitive vault screens, although platform and device conditions can limit that protection.
+        Import personal files, encrypt them locally, preview supported content,
+        organize your vault, and export only when you choose. Screenshot protection
+        keeps sensitive screens private.
       </p>
       <div class="badge-row">
-        <span class="badge">Current files: AES-256-GCM</span>
-        <span class="badge">Encrypted backups</span>
-        <span class="badge">No app Internet permission</span>
+        <span class="badge">AES-256-GCM encryption</span>
+        <span class="badge">Secure file previews</span>
+        <span class="badge">Screenshot protection</span>
       </div>
       <div class="cta-row">
         <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault" target="_blank" rel="noopener">
@@ -127,70 +129,70 @@
   </section>
 
   <section class="section">
-    <h2>Why Offline Encryption Apps Matter</h2>
+    <h2>Why Offline Encryption Apps Matter?</h2>
     <p class="section-lead">
-      Your phone may hold personal photos, videos, documents, recordings, and other sensitive files. A screen lock controls access to the device; file encryption adds a separate protection layer for selected vault content.
+      Your phone holds personal photos, videos, documents, voice notes, backups, and sensitive files. Protecting this data is not only about locking access — it is about making sure your files remain unreadable if someone gains access without permission. That is why encryption matters.
     </p>
     <p class="section-lead">
-      PrivateVault stores selected files in an encrypted app-private repository. Access requires the correct password-derived key or an enrolled biometric wrapper that Android authorizes.
+      Encryption converts your files into a protected format that cannot be easily read, copied, or misused without proper authorization. Without encryption, sensitive files may be exposed or transferred without your knowledge.
     </p>
     <p class="section-lead">
-      The current Android manifests request neither <code>INTERNET</code> nor <code>ACCESS_NETWORK_STATE</code>. The apps do not include cloud sync, advertising, analytics, telemetry, or remote file-processing SDKs.
+      Permissions alone cannot guarantee privacy. Some apps need access to files, camera, microphone, or storage for normal use, but the risk increases when those permissions are combined with internet access. An app that can access your data and connect online may send files outside your device, sometimes appearing as normal syncing or backup activity.
     </p>
     <p class="section-lead">
-      The protection boundary is still important: decrypted copies exported, shared, or opened in another app are no longer protected by vault encryption. Device compromise, storage failure, forgotten passwords, and unverified backups also remain user risks.
+      Android privacy tools can show when access happens, but they may not clearly explain how data is used afterward. This creates pressure for users to trust apps with broad permissions.
     </p>
     <p class="section-lead">
-      PrivateVault and PrivateVault PRO use the same local cryptographic foundation. PRO adds workflow, viewing, and authorization features without changing the core encryption used by the Free edition.
+      PrivateVault and PrivateVault PRO are built around a safer offline-first model. They provide an encrypted local vault where your private files stay secure directly on your Android device. The apps do not require internet access, cloud sync, servers, or external systems to protect your data.
     </p>
     <div style="margin: 24px 0;">
       <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Selected files are encrypted locally</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Current writes use authenticated formats</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> The apps request no Internet permission</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Supported legacy data remains readable</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Backups remain under user control</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Files are encrypted on your device</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Data stays local and under your control</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> No internet connection is required</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Private files are not sent to any server</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-2);">✔</span> Security does not depend on cloud services</li>
       </ul>
     </div>
     <p class="section-lead">
-      This local-first design reduces remote exposure while keeping the user responsible for passwords, verified backups, external decrypted copies, and the security of the Android device.
+      By combining strong encryption with a fully offline design, PrivateVault helps reduce the risk of data leaks, unauthorized transfers, and hidden syncing. Your private information stays where it belongs — with you.
     </p>
   </section>
 
   <section class="section">
-    <h2>How PrivateVault &amp; PrivateVault PRO Protect Your Data</h2>
+    <h2>How PrivateVault &amp; PrivateVault PRO Protect Your Data?</h2>
     <p class="section-lead">
-      Both editions use explicit encrypted formats, strict parsing, and authenticated state transitions rather than simple file hiding, renaming, or folder obfuscation.
+      PrivateVault and PrivateVault PRO use a privacy-first, offline architecture designed to reduce exposure and keep sensitive files under your control. Both apps protect your data with real cryptographic encryption, not basic hiding, renaming, or folder obfuscation.
     </p>
     <p class="section-lead">
-      Newly written and migrated vault files use the PVL2 format: chunked AES-256-GCM authenticated encryption with fresh nonces, ordered chunks, authenticated structural data, and strict length and trailing-data checks. Supported unmigrated PVLT1 files remain readable.
+      Files are encrypted locally on your Android device before they are stored in the vault. The apps use AES-256, a widely trusted encryption standard used across government, financial, and security systems. AES-256 is highly resistant to brute-force attacks when implemented correctly with strong keys.
     </p>
     <p class="section-lead">
-      Current PVMD v2 metadata uses a separate AES-256-GCM envelope with a fresh nonce and authenticated structural header. It protects entries, folder relationships, revisions, and active encrypted-file references.
+      Encryption is applied using secure modes such as AES-GCM, which protects both confidentiality and integrity. This means your files are encrypted, and unauthorized modification can be detected. If encrypted data is altered or damaged, it can be rejected instead of silently opening unsafe content.
     </p>
     <p class="section-lead">
-      New vault credentials use PBKDF2-HMAC-SHA256 with exactly 600,000 iterations, a unique random 32-byte salt, and a 256-bit derived key. The current implementation does not use Argon2id.
+      Encryption keys are derived using hardened key derivation functions such as PBKDF2 or Argon2. These methods strengthen password-based protection using salting and repeated computation to reduce brute-force and dictionary attack risks.
     </p>
     <p class="section-lead">
-      New encrypted backups use PVBAK4 and a fixed PBKDF2-HMAC-SHA256 profile with 600,000 iterations, a fresh random 32-byte salt, and a 256-bit derived key. Supported PVBAK1, PVBAK2, and PVBAK3 backups retain their historical restore behavior.
+      All encryption and decryption happen on your device. Your files, keys, and private content are not processed on external servers, transmitted over a network, or dependent on cloud systems. Because the apps work offline, there is no background syncing, hidden uploads, remote processing, API exposure, or server-side storage risk.
     </p>
     <p class="section-lead">
-      Password-first biometric enrollment uses Android BiometricPrompt and an authentication-bound Android Keystore key. PrivateVault does not receive or store biometric templates and does not claim that every active key is StrongBox- or hardware-backed.
+      PrivateVault PRO extends the same offline encrypted foundation with advanced management tools for users who need more control, organization, and flexibility.
     </p>
     <div style="margin: 24px 0;">
       <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;">
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> PVL2 chunked AES-256-GCM vault files</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> PVMD v2 authenticated metadata</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> Versioned password-verifier precheck</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> PBKDF2-HMAC-SHA256 password derivation</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> PVBAK4 encrypted backups</li>
-        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> Transactional restore and migration flows</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> Files are encrypted before storage</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> AES-256 provides strong cryptographic protection</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> AES-GCM helps detect tampering</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> PBKDF2 or Argon2 strengthens password-derived keys</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> Files stay isolated inside a secure local vault</li>
+        <li style="position: relative; padding-left: 24px; color: var(--text-secondary); font-size: var(--text-base);"><span style="position: absolute; left: 0; color: var(--accent-light);">✦</span> No server, cloud, or internet access is required</li>
       </ul>
     </div>
     <article class="policy-card notice" style="margin-top: 24px;">
       <h3 style="margin-top: 0; margin-bottom: 8px; font-size: var(--text-base); color: var(--text);">Technical Accuracy Note</h3>
       <p style="margin: 0; font-size: var(--text-sm); color: var(--muted);">
-        Legacy formats are retained for compatibility. Current formats improve authenticated structure, but no software can guarantee recovery from pre-existing corruption, storage failure, device compromise, or a forgotten password.
+        Android privacy tools can show when sensitive permissions are used, but they may not always explain what happens to data afterward. Offline encryption adds a stronger layer of protection after permissions are granted.
       </p>
     </article>
   </section>
@@ -198,38 +200,38 @@
   <section class="section">
     <h2>What these apps provide</h2>
     <p class="section-lead">
-      PrivateVault and PrivateVault PRO protect selected files in an encrypted local vault while preserving clear edition-specific feature boundaries.
+      PrivateVault PRO &amp; PrivateVault helps you keep personal files organized and protected in an encrypted & locked local vault like storage.
     </p>
     <div class="grid">
       <article class="card">
         <div class="feature-icon">🔐</div>
         <h3>Encrypted file vault</h3>
-        <p>Current-format vault files use chunked AES-256-GCM authenticated encryption; supported legacy files remain readable.</p>
+        <p>Protect personal photos, videos, documents, and other selected files with local encrypted storage.</p>
       </article>
       <article class="card">
         <div class="feature-icon">📁</div>
         <h3>Local organization</h3>
-        <p>Both editions provide search, sorting, thumbnails, selection, and deletion. PRO adds folders, move, rename, starring, and grid/list layouts.</p>
+        <p>Organize files by folders, preview supported content, search locally, and manage your vault easily.</p>
       </article>
       <article class="card">
         <div class="feature-icon">🛡️</div>
         <h3>Privacy-focused</h3>
-        <p>No cloud account is required. The Android apps request no Internet permission and include no advertising, analytics, or telemetry SDKs.</p>
+        <p>No cloud account required, no telemetry or analytics, no internet permission for core vault use.</p>
       </article>
       <article class="card">
         <div class="feature-icon">🖼️</div>
         <h3>Media previews</h3>
-        <p>Free includes built-in image viewing. PRO adds local video and audio playback plus broader supported-file viewers.</p>
+        <p>View supported images, videos, and audio inside the vault with secure preview and screenshot protection.</p>
       </article>
       <article class="card">
         <div class="feature-icon">📄</div>
         <h3>PDF and document viewing</h3>
-        <p>PRO includes local viewers for supported PDF, text/code, DOCX, XLSX, PPTX, and archive content. Rendering varies by file and device.</p>
+        <p>Open and view supported PDFs and documents.</p>
       </article>
       <article class="card">
         <div class="feature-icon">📤</div>
         <h3>User-controlled export</h3>
-        <p>Export, Share, and Open with create a decrypted copy for the selected destination. That destination may retain a copy outside vault protection.</p>
+        <p>Files leave the vault only when you explicitly export or share them to a location or app you choose.</p>
       </article>
     </div>
   </section>
@@ -237,39 +239,52 @@
   <section class="section">
     <h2>PrivateVault vs PrivateVault PRO</h2>
     <p class="section-lead">
-      Start with PrivateVault for essential local vault protection. Choose PrivateVault PRO for broader local viewers, organization, Scan-to-PDF, Settings restore, and additional authorization controls.
+      Start with PrivateVault for the essential offline encrypted vault experience. Choose PrivateVault PRO when you want in-app secure viewing, organization, scan to pdf, and maintenance tools.
     </p>
     <div class="comparison-grid">
       <div class="comparison-card">
         <h3>Always free in PrivateVault</h3>
         <ul class="comparison-list">
-          <li>The same current PVL2, PVMD, credential, and backup formats as PRO</li>
-          <li>Password unlock and optional biometric unlock</li>
-          <li>Import, export, share, and Open with</li>
-          <li>Search, sorting, thumbnails, selection, and deletion</li>
-          <li>Direct photo, video, and audio capture</li>
-          <li>Built-in image viewing</li>
-          <li>Encrypted local Activity Logs</li>
-          <li>Password changes, Auto Lock, and Vault Reset</li>
-          <li>Password-protected PVBAK4 backup creation</li>
-          <li>Restore during initial vault setup</li>
-          <li>Light theme</li>
-          <li>No advertising SDK or app Internet permission</li>
+          <li>Offline AES-256-GCM encrypted vault. No Ads ever.</li>
+          <li>Import and encrypt files</li>
+          <li>Export and decrypt your files when needed</li>
+          <li>Password unlock</li>
+          <li>Biometric unlock</li>
+          <li>File selection and backup/delete/export</li>
+          <li>Delete files from the vault</li>
+          <li>Search, sort, and organize the file list</li>
+          <li>List view with file thumbnails</li>
+          <li>In-app secure image viewer</li>
+          <li>Activity Logs</li>
+          <li>Change password</li>
+          <li>Vault reset</li>
+          <li>Auto lock</li>
+          <li>Share files directly from the vault</li>
+          <li>Open files with another app of your choice</li>
+          <li>Create password-protected encrypted backups</li>
+          <li>Create backups to move your data to PrivateVault PRO</li>
         </ul>
       </div>
       <div class="comparison-card pro-card">
         <h3>Extra features in PrivateVault PRO</h3>
         <ul class="comparison-list">
-          <li>Folders, move, rename, starring, and grid/list layouts</li>
-          <li>Local viewers for supported images, video, audio, PDF, text/code, Office files, and archives</li>
-          <li>Text/code revisions, editing, and selected PDF tools</li>
-          <li>Scan-to-PDF and higher-quality capture controls</li>
-          <li>Settings restore and vault safety checks</li>
-          <li>Data Control and advanced file-details actions</li>
-          <li>Optional 2FA Unlock and Panic Lock</li>
-          <li>Optional failed-unlock camera capture where device permission and capability allow</li>
-          <li>Dark and automatic theme support</li>
-          <li>PRO viewing and organization features remain local to the device</li>
+          <li>Open and view files securely with in-app offline trusted viewer</li>
+          <li>Image, video, audio, PDF, document, archive, and code/text in-app offline viewing supported</li>
+          <li>Scan-to-PDF tools</li>
+          <li>Create folders</li>
+          <li>Move files</li>
+          <li>Rename files/folders</li>
+          <li>Star and unstar files</li>
+          <li>Restore backups</li>
+          <li>Encrypted Files Health / Vault Health Check</li>
+          <li>Dark and Auto theme support</li>
+          <li>Preserve Originals while Editing and Restore later</li>
+          <li>Text/code files editing supported with autosave</li>
+          <li>Panic Lock</li>
+          <li>Tile view/ List view</li>
+          <li>Share files directly from the vault</li>
+          <li>Open files with another app of your choice</li>
+          <li>Advanced file details actions</li>
         </ul>
       </div>
     </div>
@@ -279,11 +294,11 @@
     <h2>&#x1F4E5; Upgrading from PrivateVault to PrivateVault PRO &#x1F451;</h2>
     <div class="comparison-card" style="max-width: 800px; margin: 24px auto 0; text-align: left; background: linear-gradient(180deg, rgba(109, 141, 255, 0.08), rgba(255, 255, 255, 0.02)); border-color: rgba(109, 141, 255, 0.2);">
       <p style="font-size: 16px; line-height: 1.8; color: var(--muted); margin: 0 0 28px 0;">
-        To move vault data to PrivateVault PRO, create a password-protected encrypted backup in PrivateVault and save it to a location you control. In PrivateVault PRO, choose Restore, select the backup, and enter the same backup password. The Android apps perform this workflow locally without cloud transfer. Keep the original backup until you verify the restored vault.
+        To move your vault data to PrivateVault PRO, create a password-protected encrypted backup in PrivateVault and save it to a location of your choice on your device. Then open PrivateVault PRO, choose Restore, select that backup file, and enter the same backup password. Your data remains fully offline, encrypted, and in your control throughout the process with no cloud transfer required.
       </p>
       <div style="display: flex; flex-direction: column; align-items: center; padding-top: 20px; border-top: 1px solid rgba(109, 141, 255, 0.15);">
         <a href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault.pro" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; transition: opacity 0.25s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
-          <img src="./assets/app-icon.png" alt="PrivateVault PRO icon" style="width: 36px; height: 36px; border-radius: 8px;" />
+          <img src="./assets/app-icon.svg" alt="PrivateVault PRO icon" style="width: 36px; height: 36px; border-radius: 8px;" />
           <span style="font-size: 15px; color: var(--muted); font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 466 511.98" width="16" height="16" style="vertical-align: middle;">
               <g fill-rule="nonzero">
@@ -303,22 +318,24 @@
   <section class="section">
     <h2>Limitations</h2>
     <p class="section-lead">
-      PrivateVault and PrivateVault PRO do not guarantee that every file type will preview or render perfectly. Unsupported, malformed, very large, unusual, or resource-intensive files may fail or behave differently depending on the device. Scan-to-PDF quality depends on image quality, lighting, document angle, and device capability.
+      PrivateVault or PrivateVault PRO apps does not guarantee that every file type will preview or render perfectly.
+      Unsupported, corrupted, extremely large, or password-protected files may fail to open or process.
+      Scan-to-PDF quality depends on image quality, lighting, document angle, and device capabilities.
     </p>
     <p class="section-lead">
-      Authenticated encryption detects modification and many forms of truncation; it does not repair missing data. PrivateVault uses staged and transactional workflows, but device failure, exhausted storage, filesystem errors, or process interruption can still prevent an operation from completing.
+      Encryption itself does not damage files. The real risk is an interrupted or incomplete write — caused by the phone powering off, storage running out, the app being force-closed, or cleaner apps modifying vault data. PrivateVault uses authenticated encryption, which means even one altered byte will cause the app to block access to that file. This is a safety feature, not a flaw.
     </p>
     <p class="section-lead">
-      Do not manually move, rename, or modify PrivateVault's app-private files. Keep sufficient free storage, use the built-in import, export, backup, and restore tools, and maintain independently verified backups before major operations.
+      If a file is only partially written and the original has already been deleted, recovery may not be possible. Keep your device charged, ensure sufficient storage, and never manually move or modify PrivateVault's internal files. Always use the app's built-in import, export, backup, and restore tools.
     </p>
     <p class="section-lead">
-      The developer has no server-side password reset or recovery key. If a vault or backup password is lost, encrypted data may become permanently inaccessible. Exported or externally opened decrypted copies are outside PrivateVault encryption, and deletion cannot guarantee physical secure erasure on flash storage.
+      If a vault password is forgotten or lost, encrypted files may be permanently inaccessible. No server-side recovery exists. You can maintain independent encrypted backups of important files and copy them to a safe cloud or local storage, but you will still need your backup password to restore that backup.
     </p>
   </section>
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
-    <span>© 2026 www.privatepappa.in</span>
+    <span>© 2026 privatepappa.in</span>
     <span>
       <a href="./privacy-policy.html">Privacy Policy</a> ·
       <a href="./terms-of-service.html">Terms of Service</a> ·
