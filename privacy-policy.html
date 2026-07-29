@@ -1,152 +1,213 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#07111f" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
-  <title>Privacy Policy | PrivateVault for Android</title>
-  <meta name="description" content="Learn how PrivateVault and PrivateVault PRO process selected files locally, which Android permissions they use, and where the vault privacy boundary ends." />
-  <link rel="canonical" href="https://privatepappa.in/privacy-policy.html" />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <script src="./js/app.js" defer></script>
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="PrivateVault by Privatepappa" />
-  <meta property="og:url" content="https://privatepappa.in/privacy-policy.html" />
-  <meta property="og:title" content="Privacy Policy | PrivateVault for Android" />
-  <meta property="og:description" content="A precise explanation of PrivateVault’s local processing, permissions, encryption, exports, and data-retention boundaries." />
-  <meta property="og:image" content="https://privatepappa.in/assets/app-icon.png" />
-  <meta property="og:image:width" content="512" />
-  <meta property="og:image:height" content="512" />
-  <meta property="og:image:alt" content="PrivateVault app icon" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+<title>Privacy Policy - PrivateVault | Privatepappa</title>
+<meta name="description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self';" />
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="./css/style.css" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="PrivateVault PRO &amp; PrivateVault" />
+<meta property="og:url" content="https://privatepappa.in/privacy-policy.html" />
+<meta property="og:title" content="Privacy Policy - PrivateVault | Privatepappa" />
+<meta property="og:description" content="PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement." />
+<meta property="og:image" content="https://privatepappa.in/assets/logo.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:alt" content="PrivateVault app icon" />
+<!-- Canonical -->
+<link rel="canonical" href="https://privatepappa.in/privacy-policy.html" />
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PrivateVault PRO & PrivateVault",
+  "url": "https://privatepappa.in",
+  "logo": "https://privatepappa.in/assets/logo.png",
+  "description": "PrivateVault PRO and PrivateVault are offline encrypted secure storage applications for safely storing and managing personal files on your Android device without cloud or internet access requirement."
+}
+</script>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <header class="site-header">
-    <nav class="navbar" aria-label="Primary navigation">
-      <a class="brand" href="./index.html" aria-label="PrivateVault home"><img src="./assets/app-icon.png" alt="" width="42" height="42" /><span class="brand-copy"><strong>PrivateVault</strong><small>by Privatepappa</small></span></a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
-      <div class="nav-links" id="site-navigation"><a href="./index.html">Home</a><a href="./faq.html">FAQs</a><a class="active" href="./privacy-policy.html" aria-current="page">Privacy</a><a href="./terms-of-service.html">Terms</a><a href="./contact-us.html">Contact</a></div>
-    </nav>
-  </header>
-
-  <main id="main-content" class="page inner-page legal-page">
-    <section class="page-title">
-      <p class="eyebrow">Policy for the Android apps and this website</p>
-      <h1>Privacy Policy</h1>
-      <p>Effective July 29, 2026</p>
-    </section>
-
-    <div class="policy-summary">
-      <div><strong>No app Internet permission</strong><span>The Android apps do not request network access.</span></div>
-      <div><strong>No developer cloud</strong><span>Vault contents are not uploaded to a Privatepappa server.</span></div>
-      <div><strong>No app analytics</strong><span>No advertising, analytics, telemetry, or remote crash SDK is included.</span></div>
+<header class="site-header">
+  <nav class="navbar">
+    <div class="brand">
+      <a href="/" aria-label="Privatepappain home">
+        <img src="./assets/logo.png" alt="Privatepappain logo" width="34" height="34" />
+      </a>
+      <a class="brand-name" href="https://play.google.com/store/apps/dev?id=5408184378487018251" target="_blank" rel="noopener noreferrer" aria-label="Privatepappain on Google Play">Privatepappain</a>
     </div>
-
-    <nav class="toc-card" aria-label="Privacy Policy contents">
-      <strong>On this page</strong>
-      <div><a href="#scope">Scope</a><a href="#collection">Data collection</a><a href="#processing">Local processing</a><a href="#permissions">Permissions</a><a href="#security">Security</a><a href="#external">External boundaries</a><a href="#retention">Retention and deletion</a><a href="#website">Website</a><a href="#children">Children</a><a href="#contact">Contact</a></div>
-    </nav>
-
-    <section class="content-stack">
-      <article class="policy-card" id="scope">
-        <h2>1. Scope</h2>
-        <p>This policy describes PrivateVault, PrivateVault PRO, and the informational website at privatepappa.in. The Android apps are local encrypted file vaults. They do not depend on a Privatepappa account, cloud-sync service, remote key service, or developer-operated file server.</p>
-      </article>
-
-      <article class="policy-card" id="collection">
-        <h2>2. Data the Android apps do not collect</h2>
-        <p>The Android apps do not send the following to the developer:</p>
-        <ul>
-          <li>Files, folders, thumbnails, filenames, or metadata stored in your vault;</li>
-          <li>Vault passwords, backup passwords, derived keys, biometric templates, or encryption keys;</li>
-          <li>Encrypted local activity logs or optional failed-unlock camera captures;</li>
-          <li>Contacts, messages, call history, location, advertising identifiers, or behavioral profiles; or</li>
-          <li>Analytics, telemetry, advertising events, or remote crash reports.</li>
-        </ul>
-        <p>The current Android manifests request neither <code>INTERNET</code> nor <code>ACCESS_NETWORK_STATE</code>.</p>
-      </article>
-
-      <article class="policy-card" id="processing">
-        <h2>3. Local data processing</h2>
-        <p>When you choose a file or use a capture feature, the app processes that content locally to provide functions such as encryption, authenticated storage, thumbnails, search, supported viewing, backup, restore, export, and activity history.</p>
-        <p>Vault configuration, encrypted files, authenticated metadata, encrypted activity history, operation journals, and temporary staging data are stored in app-private device storage according to the feature being used. Process-local key material is used only for authorized operations and is not uploaded to the developer.</p>
-        <p>Optional biometric enrollment is password-first. Android performs biometric matching; PrivateVault does not receive or store fingerprint, face, or other biometric templates.</p>
-      </article>
-
-      <article class="policy-card" id="permissions">
-        <h2>4. Android permissions</h2>
-        <p>Permission availability varies by Android version. Examples of permissions used by features exposed in the installed edition include:</p>
-        <ul>
-          <li><code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code>, and <code>READ_MEDIA_AUDIO</code> may be used to let you select supported media for local import.</li>
-          <li>Legacy <code>READ_EXTERNAL_STORAGE</code> access may be requested through Android 12L/API 32; newer Android versions use scoped media access and system pickers.</li>
-          <li>Android’s system file and folder pickers may grant access only to locations or documents you select.</li>
-          <li><code>CAMERA</code> supports direct photo/video capture, Scan-to-PDF where available, and optional PRO failed-unlock capture when enabled.</li>
-          <li><code>RECORD_AUDIO</code> supports direct audio recording and audio captured with video, when enabled.</li>
-          <li>Biometric permissions allow Android biometric authentication; the app does not access biometric templates.</li>
-          <li>Notification and foreground-service permissions support visible progress for long-running vault operations such as restore.</li>
-        </ul>
-        <p>Declining an optional permission may disable the related feature without changing the encryption of existing vault data.</p>
-      </article>
-
-      <article class="policy-card" id="security">
-        <h2>5. Security controls</h2>
-        <p>Newly written and migrated vault files use the PVL2 chunked AES-256-GCM format. Current-format vault metadata uses the PVMD v2 AES-256-GCM format with authenticated structural fields. New vault credentials use PBKDF2-HMAC-SHA256 with 600,000 iterations, a unique random 32-byte salt, and a 256-bit derived key. Supported legacy vault data remains readable before migration.</p>
-        <p>New encrypted backups use PVBAK4 with a separate, fixed backup KDF profile using the same PBKDF2 algorithm, iteration count, salt length, and key length. Valid supported PVBAK1–3 backups remain restorable under their historical rules.</p>
-        <p>Optional Biometric Unlock uses Android BiometricPrompt and an authentication-bound Android Keystore key. The app does not claim that every active key is hardware-backed, StrongBox-protected, or attested.</p>
-        <p>No software or device can guarantee absolute security. Device compromise, malicious software, weak device authentication, storage failure, forgotten passwords, and unsafe exports remain relevant risks.</p>
-      </article>
-
-      <article class="policy-card" id="external">
-        <h2>6. Exports, sharing, backups, and external apps</h2>
-        <p>When you explicitly export, share, or choose Open with, PrivateVault may create a temporary decrypted app-private copy, grant the selected destination access, and schedule local cleanup. A receiving app or selected storage provider can retain its own copy. That copy is outside PrivateVault’s encryption boundary.</p>
-        <p>If a PRO user enables external Intrusion Detection copies, decrypted captures are saved to the selected external folder. Those optional copies are also outside vault encryption.</p>
-        <p>Encrypted backup files remain protected by their backup password and format while intact, but their storage location is selected and controlled through Android. PrivateVault does not automatically rewrite or delete older external backup files.</p>
-        <p>Links to Google Play, email, or websites open through Android or your browser. Those external services operate under their own privacy policies.</p>
-      </article>
-
-      <article class="policy-card" id="retention">
-        <h2>7. Retention, deletion, and reset</h2>
-        <p>Vault data remains on the device until you delete it, reset the vault, uninstall the app, clear app data, or the operating system removes it. Delete actions remove the selected encrypted vault copy and its metadata reference through the app’s normal workflow. Vault Reset removes the app’s local vault state.</p>
-        <p>PrivateVault cannot guarantee physical overwrite or forensic irrecoverability on flash storage. Reset and deletion do not remove copies that you previously exported, shared, backed up, or stored elsewhere.</p>
-      </article>
-
-      <article class="policy-card" id="website">
-        <h2>8. This website</h2>
-        <p>This static website does not include an advertising, analytics, or tracking script. Its hosting and network providers may process ordinary request information, such as IP address, browser details, and timestamps, to deliver and protect the site under their own policies.</p>
-        <p>If you email support, the developer receives the information you choose to include and uses it to respond to your request. Do not send passwords, key material, private vault files, or sensitive personal content.</p>
-      </article>
-
-      <article class="policy-card" id="children">
-        <h2>9. Children’s privacy</h2>
-        <p>The apps and website are not directed to children under 13. The developer does not knowingly collect personal information from children through the Android apps.</p>
-      </article>
-
-      <article class="policy-card" id="updates">
-        <h2>10. Policy changes</h2>
-        <p>This policy may be updated when app capabilities, Android permissions, distribution requirements, or applicable laws change. The effective date at the top identifies the current published version.</p>
-      </article>
-
-      <article class="policy-card" id="contact">
-        <h2>11. Contact</h2>
-        <p>For privacy questions, email <a href="mailto:reply@privatepappa.in">reply@privatepappa.in</a>. Please identify the app edition and version without including private vault data.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="page footer-grid">
-      <div class="footer-brand"><img src="./assets/app-icon.png" alt="" width="44" height="44" /><div><strong>PrivateVault</strong><p>Offline encrypted file vaults for Android.</p></div></div>
-      <nav class="footer-downloads" aria-label="Download the apps"><a href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault" target="_blank" rel="noopener noreferrer"><span>Download</span><strong>PrivateVault</strong></a><a href="https://play.google.com/store/apps/details?id=com.privatepappain.privatevault.pro" target="_blank" rel="noopener noreferrer"><span>Get</span><strong>PrivateVault PRO</strong></a></nav>
-      <nav class="footer-links" aria-label="Footer navigation"><a href="./faq.html">FAQs</a><a href="./privacy-policy.html">Privacy</a><a href="./terms-of-service.html">Terms</a><a href="./contact-us.html">Contact</a></nav>
+    <div class="nav-links" aria-label="Main navigation">
+      <a class="" href="/">Home</a>
+      <a class="" href="./faq.html">FAQs</a>
+      <a class="active" href="./privacy-policy.html">Privacy Policy</a>
+      <a class="" href="./terms-of-service.html">Terms of Service</a>
+      <a class="" href="./contact-us.html">Contact Us</a>
     </div>
-    <div class="page footer-meta"><span>© 2026 Privatepappa</span><span>Android apps designed for precise, local protection.</span></div>
-  </footer>
+  </nav>
+</header>
+<main class="page legal-page">
+  <section class="page-title">
+    <h1>Privacy Policy</h1>
+    <p>Last updated: July 6, 2026</p>
+  </section>
+
+  <!-- Table of Contents -->
+  <article class="policy-card toc-card">
+    <h2>Table of Contents</h2>
+    <nav class="toc-nav">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#data-collection">Data Collection</a></li>
+        <li><a href="#permissions">Permissions and File Access</a></li>
+        <li><a href="#data-usage">How Data Is Used?</a></li>
+        <li><a href="#sharing">Sharing and Disclosure</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#children">Children's Privacy</a></li>
+        <li><a href="#summary">Data Safety Summary</a></li>
+        <li><a href="#updates">Policy Updates</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </article>
+
+  <section class="content-stack">
+    <article class="policy-card" id="overview">
+      <h2>Overview</h2>
+      <p>
+        PrivateVault PRO &amp; PrivateVault are designed as offline encrypted vault apps. The apps are intended
+        to protect files locally on your device and do not intentionally collect, sell,
+        transmit, upload, or share your personal vault contents.
+      </p>
+    </article>
+
+    <article class="policy-card" id="data-collection">
+      <h2>Data Collection</h2>
+      <p>
+        In the intended offline production configuration, PrivateVault PRO &amp; PrivateVault do not collect user
+        data through analytics, advertising SDKs, tracking SDKs, cloud sync, or remote servers.
+      </p>
+      <p>The app does not intentionally collect:</p>
+      <ul>
+        <li>Photos, videos, audio, or documents stored in your vault</li>
+        <li>Vault passwords or encryption keys</li>
+        <li>Contacts, messages, call logs, or location</li>
+        <li>Advertising identifiers or behavioral analytics</li>
+        <li>Usage tracking or crash analytics</li>
+      </ul>
+    </article>
+
+    <article class="policy-card" id="permissions">
+      <h2>Permissions and File Access</h2>
+      <p>
+        PrivateVault PRO &amp; PrivateVault request only permissions needed for user-selected app features.
+        Media and file access permissions are used to import, preview, encrypt, decrypt,
+        export, or manage files that you choose.
+      </p>
+      <ul>
+        <li><code>READ_MEDIA_IMAGES</code> may be used for selected image imports and previews.</li>
+        <li><code>READ_MEDIA_VIDEO</code> may be used for selected video imports and previews.</li>
+        <li><code>READ_MEDIA_AUDIO</code> may be used for selected audio imports and previews where enabled.</li>
+        <li>Android file picker access may be used so you can choose documents or folders.</li>
+        <li><code>CAMERA</code> may be requested only when you choose direct camera capture or document scan features.</li>
+      </ul>
+      <p>
+        Core vault operation is designed strictly not to require internet permission. While some apps combine file or media access with internet permissions (which can create a risk of data being transferred outside your device under the guise of syncing or backups), PrivateVault's lack of internet access removes this risk entirely.
+      </p>
+    </article>
+
+    <article class="policy-card" id="data-usage">
+      <h2>How Data Is Used?</h2>
+      <p>
+        Files you select are used locally to provide vault features, including encryption,
+        decryption, local preview, local thumbnails, local search, export, sharing, and
+        organization.
+      </p>
+      <p>
+        Vault data is not sent to the developer by the app in the intended offline configuration.
+      </p>
+    </article>
+
+    <article class="policy-card" id="sharing">
+      <h2>Sharing and Disclosure</h2>
+      <p>
+        PrivateVault PRO &amp; PrivateVault do not intentionally share your vault contents with third parties.
+        Files may leave the app only when you explicitly export or share decrypted files
+        using your device's storage picker or Android share sheet.
+      </p>
+    </article>
+
+    <article class="policy-card" id="security">
+      <h2>Security</h2>
+      <p>
+        The app uses strong, industry-standard AES-256 symmetric encryption (with 256-bit keys) applied in secure modes like AES-GCM (Galois/Counter Mode). This provides both confidentiality and integrity protection, allowing the system to detect and reject any unauthorized tampering with encrypted data.
+      </p>
+      <p>
+        Encryption keys are derived locally using hardened key derivation functions such as PBKDF2 or Argon2, incorporating salting and multiple hashing iterations to resist brute-force and dictionary attacks. All encryption, decryption, and key storage happen entirely on your device.
+      </p>
+      <p>
+        Other security layers include secure vault sessions, protected previews, screenshot blocking on sensitive screens, and temporary file cleanup. For technical accuracy, while Android provides privacy indicators and dashboards for permissions, they only track when access occurs, not how data is processed afterward. Local, offline encryption remains a critical defense layer once permissions are granted.
+      </p>
+    </article>
+
+    <article class="policy-card" id="children">
+      <h2>Children's Privacy</h2>
+      <p>
+        PrivateVault PRO &amp; PrivateVault are not directed to children under 13 and do not knowingly collect personal
+        information from children.
+      </p>
+    </article>
+
+    <article class="policy-card" id="summary">
+      <h2>Data Safety Summary</h2>
+      <ul>
+        <li>Data sold: No</li>
+        <li>Data shared by default: No</li>
+        <li>Data collected by developer servers: No, in the intended offline configuration</li>
+        <li>Cloud sync: No mandatory cloud sync</li>
+        <li>Ads or tracking SDKs: Not intentionally included in the offline vault configuration</li>
+      </ul>
+    </article>
+
+    <article class="policy-card" id="updates">
+      <h2>Policy Updates</h2>
+      <p>
+        This policy may be updated to reflect app changes, permission changes, Play Console
+        requirements, or legal requirements.
+      </p>
+    </article>
+
+    <article class="policy-card" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        For privacy questions, contact:
+      </p>
+      <a class="contact-box" href="mailto:reply@privatepappa.in">reply@privatepappa.in</a>
+    </article>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 privatepappa.in</span>
+    <span>
+      <a href="./privacy-policy.html">Privacy Policy</a> ·
+      <a href="./terms-of-service.html">Terms of Service</a> ·
+      <a href="mailto:reply@privatepappa.in">reply@privatepappa.in</a>
+    </span>
+  </div>
+</footer>
 </body>
 </html>

@@ -1,10 +1,6 @@
 {
-  "name": "PrivateVault by Privatepappa",
-  "short_name": "PrivateVault",
-  "id": "/",
-  "start_url": "/",
-  "scope": "/",
-  "description": "Technical information about the PrivateVault Android apps.",
+  "name": "Privatepappain",
+  "short_name": "Privatepappain",
   "icons": [
     {
       "src": "/favicon-192x192.png",
@@ -17,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#07111f",
-  "background_color": "#07111f",
+  "theme_color": "#0b3d91",
+  "background_color": "#0b3d91",
   "display": "standalone"
 }
